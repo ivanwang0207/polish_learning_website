@@ -1000,6 +1000,126 @@ const CONTENT = {
           }
         ]
       }
+    },
+    {
+      "number": 10,
+      "title": "Proszę iść prosto.",
+      "subtitle": "Please go straight.",
+      "sections": {
+        "grammar": [
+          "<div class=\"panel\"><h3>Direction words (方位词)</h3>\n<div class=\"tblwrap\"><table><tr><th>Polish</th><th>English</th></tr>\n<tr><td>prosto</td><td>straight</td></tr>\n<tr><td>iść prosto</td><td>to go straight</td></tr>\n<tr><td>skręcić / iść w lewo</td><td>turn left / go left</td></tr>\n<tr><td>skręcić / iść w prawo</td><td>turn right / go right</td></tr>\n<tr><td>na lewo</td><td>on the left</td></tr>\n<tr><td>na prawo</td><td>on the right</td></tr></table></div>\n<p class=\"note\">w lewo/w prawo = the direction of motion (turning) · na lewo/na prawo = the resulting location (\"is on the left/right\")</p>\n</div>",
+          "<div class=\"panel\"><h3>Proszę — usage 1: giving directions</h3>\n<p class=\"note\"><b>Proszę + verb (infinitive)</b> — polite way to instruct someone, used for giving directions</p>\n<div class=\"ex\">Gdzie jest Bank? <span class=\"en\">(Where is the Bank?)</span><br><span class=\"red\">Proszę iść prosto, bank jest na lewo.</span><br>Gdzie jest Hotel?<br><span class=\"red\">Proszę jechać prosto, hotel jest na prawo.</span><br>Gdzie jest Sklep?<br><span class=\"red\">Proszę iść prosto, a potem skręcić w lewo, sklep jest na prawo.</span></div>\n<p class=\"note\">a potem = and then</p>\n</div>",
+          "<div class=\"panel\"><h3>Proszę — usage 2: ordering (Proszę + accusative noun)</h3>\n<p class=\"note\"><b>Proszę / Poproszę + noun (biernik, accusative)</b> — used to order or request something</p>\n<div class=\"ex\"><span class=\"red\">Poproszę kawę.</span> <span class=\"en\">(I'd like a coffee, please.)</span></div>\n<p class=\"note\">宾格(biernik)为名词第四格，在句中作宾语，即动作的直接作用对象。</p>\n</div>",
+          "<div class=\"panel full\"><h3>Noun accusative (biernik) endings</h3>\n<div class=\"tblwrap\"><table><tr><th>Gender</th><th>Nominative</th><th>Accusative</th><th>Nom. example</th><th>Acc. example</th></tr>\n<tr><td class=\"lbl\">Masc. inanimate</td><td>hard consonant</td><td class=\"red\">unchanged</td><td>dom (house)</td><td>dom</td></tr>\n<tr><td class=\"lbl\">Masc. animate</td><td>hard consonant</td><td class=\"red\">+a</td><td>brat (brother)</td><td>brata</td></tr>\n<tr><td class=\"lbl\">Masc. -a ending</td><td>-a</td><td class=\"red\">-ę</td><td>tata (dad)</td><td>tatę</td></tr>\n<tr><td class=\"lbl\">Fem.</td><td>-a</td><td class=\"red\">-ę</td><td>siostra (sister)</td><td>siostrę</td></tr>\n<tr><td class=\"lbl\">Neut.</td><td>-o</td><td class=\"red\">unchanged</td><td>auto (car)</td><td>auto</td></tr></table></div>\n<p class=\"note\">\"Animate\" masc. nouns = living things (people, animals, plants incl. fruit/veg) and some personified objects (car brands, cigarettes: papieros → papierosa). Neuter and \"inanimate\" masc. nouns keep the nominative form.</p>\n</div>",
+          "<div class=\"panel full\"><h3>Ordering with z + instrumental (\"with…\")</h3>\n<div class=\"tblwrap\"><table><tr><th>Gender</th><th>Accusative</th><th>Instrumental</th></tr>\n<tr><td class=\"lbl\">Masc. hard cons.</td><td>unchanged</td><td class=\"red\">-em (k,g → -iem)</td></tr>\n<tr><td class=\"lbl\">Masc./Neut. -a,-o</td><td>-ę / unchanged</td><td class=\"red\">-ą</td></tr>\n<tr><td class=\"lbl\">Fem. -a</td><td>-ę</td><td class=\"red\">-ą</td></tr></table></div>\n<p>herbata + cukier → <span class=\"red\">Proszę herbatę z cukrem.</span> <span class=\"en\">(Tea with sugar, please.)</span><br>kawa + mleko → <span class=\"red\">Proszę kawę z mlekiem.</span><br>pepsi + lód → <span class=\"red\">Proszę pepsi z lodem.</span><br>mięso + sos → <span class=\"red\">Proszę mięso z sosem.</span></p>\n<p class=\"note\">Pattern: [thing ordered, accusative] + z + [added item, instrumental]. Example: <i>Piszę długopisem.</i> (I write with a pen.) — długopis takes -em because it's the instrumental \"tool\" of the verb pisać.</p>\n</div>"
+        ],
+        "vocab": [
+          {
+            "category": "Core words",
+            "items": [
+              {
+                "pl": "proszę",
+                "en": "please / here you are"
+              },
+              {
+                "pl": "prosto",
+                "en": "straight"
+              },
+              {
+                "pl": "gdzie",
+                "en": "where"
+              },
+              {
+                "pl": "a potem",
+                "en": "and then"
+              }
+            ]
+          },
+          {
+            "category": "Directions",
+            "items": [
+              {
+                "pl": "na lewo",
+                "en": "on the left"
+              },
+              {
+                "pl": "na prawo",
+                "en": "on the right"
+              },
+              {
+                "pl": "w lewo",
+                "en": "to the left (turning)"
+              },
+              {
+                "pl": "w prawo",
+                "en": "to the right (turning)"
+              },
+              {
+                "pl": "skręcić",
+                "en": "to turn"
+              }
+            ]
+          },
+          {
+            "category": "Places",
+            "items": [
+              {
+                "pl": "sklep",
+                "en": "shop"
+              },
+              {
+                "pl": "poczta",
+                "en": "post office"
+              },
+              {
+                "pl": "bank",
+                "en": "bank"
+              },
+              {
+                "pl": "hotel",
+                "en": "hotel"
+              }
+            ]
+          },
+          {
+            "category": "Food & drink (ordering)",
+            "items": [
+              {
+                "pl": "herbata",
+                "en": "tea"
+              },
+              {
+                "pl": "kawa",
+                "en": "coffee"
+              },
+              {
+                "pl": "mleko",
+                "en": "milk"
+              },
+              {
+                "pl": "cukier",
+                "en": "sugar"
+              },
+              {
+                "pl": "lód",
+                "en": "ice"
+              },
+              {
+                "pl": "mięso",
+                "en": "meat"
+              },
+              {
+                "pl": "sos",
+                "en": "sauce"
+              },
+              {
+                "pl": "długopis",
+                "en": "pen"
+              }
+            ]
+          }
+        ]
+      }
     }
   ]
 };
