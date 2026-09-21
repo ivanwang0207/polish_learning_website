@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Polish Study Reference</title>
+<meta name="description" content="Grammar and vocabulary reference for Polish for Beginners — extensible, edit data.js to add your own content">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700;9..144,800&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrap">
+  <p class="eyebrow">Polish for Beginners</p>
+  <h1>Study Reference</h1>
+  <p class="sub">Every grammar rule and vocabulary word covered so far, organized by lesson. Colors match the slide decks: <b style="color:var(--red)">red</b> marks a changing verb or case ending, <b style="color:var(--blue)">blue</b> marks a numeral suffix. This page is edited by editing <code>data.js</code> — see README.md.</p>
+
+  <div class="toolbar">
+    <div class="tabs" id="tabs" role="tablist"></div>
+    <div class="toolrow">
+      <div class="pills" id="lesson-pills"></div>
+      <input id="search" type="text" placeholder="Search…" style="display:none;">
+      <span class="count" id="count"></span>
+    </div>
+  </div>
+
+  <div id="main-panes"></div>
+
+  <footer>Compiled from the Polish for Beginners video course. Reference only — always double-check against the original lesson for pronunciation and nuance. Extend this page by editing <code>data.js</code>.</footer>
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
