@@ -312,9 +312,23 @@ td.lbl{
   color:var(--gold-2);
   margin:0 0 8px;
 }
-.vtable td.pl{ text-align:left; font-weight:600; }
+.vtable td.pl{ text-align:left; font-weight:600; cursor:pointer; }
+.vtable td.pl:hover{ text-decoration:underline; text-decoration-style:dotted; }
 .vtable td.en{ text-align:left; color:var(--ink-soft); }
 .vtable td.g{ font-size:11px; color:var(--ink-soft); white-space:nowrap; }
+.vtable td.speak{ width:28px; padding:2px 4px; }
+.speak-btn{
+  border:none;
+  background:none;
+  cursor:pointer;
+  font-size:14px;
+  line-height:1;
+  padding:2px 4px;
+  border-radius:6px;
+  opacity:0.75;
+}
+.speak-btn:hover{ opacity:1; background:var(--surface-2); }
+.speak-btn:disabled{ opacity:0.25; cursor:not-allowed; }
 .vrow-hidden{ display:none; }
 .vcat-hidden{ display:none; }
 

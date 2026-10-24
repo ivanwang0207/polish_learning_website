@@ -29,6 +29,35 @@
       .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
   }
 
+  /* ---------- text-to-speech for vocab (Polish pronunciation) ---------- */
+
+  const speechSupported = 'speechSynthesis' in window;
+  let polishVoice = null;
+
+  function pickPolishVoice(){
+    if (!speechSupported) return;
+    const voices = window.speechSynthesis.getVoices();
+    polishVoice = voices.find(v => v.lang === 'pl-PL') ||
+                  voices.find(v => v.lang && v.lang.toLowerCase().startsWith('pl')) ||
+                  null;
+  }
+
+  if (speechSupported) {
+    pickPolishVoice();
+    // Voice list loads asynchronously in some browsers.
+    window.speechSynthesis.addEventListener('voiceschanged', pickPolishVoice);
+  }
+
+  function speakPolish(text){
+    if (!speechSupported || !text) return;
+    window.speechSynthesis.cancel(); // stop anything already playing
+    const utter = new SpeechSynthesisUtterance(text);
+    utter.lang = 'pl-PL';
+    if (polishVoice) utter.voice = polishVoice;
+    utter.rate = 0.9;
+    window.speechSynthesis.speak(utter);
+  }
+
   function lessonHasTab(lesson, tabId){
     const sec = lesson.sections && lesson.sections[tabId];
     return Array.isArray(sec) && sec.length > 0;
@@ -74,6 +103,7 @@
           <div class="tblwrap"><table class="vtable"><tbody>
             ${cat.items.map(v => `
               <tr class="vrow" data-pl="${esc((v.pl||'').toLowerCase())}" data-en="${esc((v.en||'').toLowerCase())}">
+                <td class="speak"><button type="button" class="speak-btn" data-speak="${esc(v.pl)}" aria-label="Play pronunciation of ${esc(v.pl)}" ${speechSupported ? '' : 'disabled'}>🔊</button></td>
                 <td class="pl">${esc(v.pl)}</td><td class="en">${esc(v.en)}</td><td class="g">${esc(v.g || '')}</td>
               </tr>`).join('')}
           </tbody></table></div>
@@ -239,5 +269,11 @@
   renderAllTabs();
   renderPills();
   document.getElementById('search').addEventListener('input', e => applySearch(e.target.value));
+  document.getElementById('main-panes').addEventListener('click', e => {
+    const btn = e.target.closest('.speak-btn');
+    if (btn) { speakPolish(btn.dataset.speak); return; }
+    const plCell = e.target.closest('.vtable td.pl');
+    if (plCell) speakPolish(plCell.textContent);
+  });
   if (state.currentTab) setTab(state.currentTab);
 })();
