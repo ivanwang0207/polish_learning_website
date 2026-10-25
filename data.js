@@ -1011,7 +1011,8 @@ const CONTENT = {
           "<div class=\"panel\"><h3>Proszę — usage 1: giving directions</h3>\n<p class=\"note\"><b>Proszę + verb (infinitive)</b> — polite way to instruct someone, used for giving directions</p>\n<div class=\"ex\">Gdzie jest Bank? <span class=\"en\">(Where is the Bank?)</span><br><span class=\"red\">Proszę iść prosto, bank jest na lewo.</span><br>Gdzie jest Hotel?<br><span class=\"red\">Proszę jechać prosto, hotel jest na prawo.</span><br>Gdzie jest Sklep?<br><span class=\"red\">Proszę iść prosto, a potem skręcić w lewo, sklep jest na prawo.</span></div>\n<p class=\"note\">a potem = and then</p>\n</div>",
           "<div class=\"panel\"><h3>Proszę — usage 2: ordering (Proszę + accusative noun)</h3>\n<p class=\"note\"><b>Proszę / Poproszę + noun (biernik, accusative)</b> — used to order or request something</p>\n<div class=\"ex\"><span class=\"red\">Poproszę kawę.</span> <span class=\"en\">(I'd like a coffee, please.)</span></div>\n<p class=\"note\">宾格(biernik)为名词第四格，在句中作宾语，即动作的直接作用对象。</p>\n</div>",
           "<div class=\"panel full\"><h3>Noun accusative (biernik) endings</h3>\n<div class=\"tblwrap\"><table><tr><th>Gender</th><th>Nominative</th><th>Accusative</th><th>Nom. example</th><th>Acc. example</th></tr>\n<tr><td class=\"lbl\">Masc. inanimate</td><td>hard consonant</td><td class=\"red\">unchanged</td><td>dom (house)</td><td>dom</td></tr>\n<tr><td class=\"lbl\">Masc. animate</td><td>hard consonant</td><td class=\"red\">+a</td><td>brat (brother)</td><td>brata</td></tr>\n<tr><td class=\"lbl\">Masc. -a ending</td><td>-a</td><td class=\"red\">-ę</td><td>tata (dad)</td><td>tatę</td></tr>\n<tr><td class=\"lbl\">Fem.</td><td>-a</td><td class=\"red\">-ę</td><td>siostra (sister)</td><td>siostrę</td></tr>\n<tr><td class=\"lbl\">Neut.</td><td>-o</td><td class=\"red\">unchanged</td><td>auto (car)</td><td>auto</td></tr></table></div>\n<p class=\"note\">\"Animate\" masc. nouns = living things (people, animals, plants incl. fruit/veg) and some personified objects (car brands, cigarettes: papieros → papierosa). Neuter and \"inanimate\" masc. nouns keep the nominative form.</p>\n</div>",
-          "<div class=\"panel full\"><h3>Ordering with z + instrumental (\"with…\")</h3>\n<div class=\"tblwrap\"><table><tr><th>Gender</th><th>Accusative</th><th>Instrumental</th></tr>\n<tr><td class=\"lbl\">Masc. hard cons.</td><td>unchanged</td><td class=\"red\">-em (k,g → -iem)</td></tr>\n<tr><td class=\"lbl\">Masc./Neut. -a,-o</td><td>-ę / unchanged</td><td class=\"red\">-ą</td></tr>\n<tr><td class=\"lbl\">Fem. -a</td><td>-ę</td><td class=\"red\">-ą</td></tr></table></div>\n<p>herbata + cukier → <span class=\"red\">Proszę herbatę z cukrem.</span> <span class=\"en\">(Tea with sugar, please.)</span><br>kawa + mleko → <span class=\"red\">Proszę kawę z mlekiem.</span><br>pepsi + lód → <span class=\"red\">Proszę pepsi z lodem.</span><br>mięso + sos → <span class=\"red\">Proszę mięso z sosem.</span></p>\n<p class=\"note\">Pattern: [thing ordered, accusative] + z + [added item, instrumental]. Example: <i>Piszę długopisem.</i> (I write with a pen.) — długopis takes -em because it's the instrumental \"tool\" of the verb pisać.</p>\n</div>"
+          "<div class=\"panel full\"><h3>Ordering with z + instrumental (\"with…\")</h3>\n<div class=\"tblwrap\"><table><tr><th>Gender</th><th>Accusative</th><th>Instrumental</th></tr>\n<tr><td class=\"lbl\">Masc. hard cons.</td><td>unchanged</td><td class=\"red\">-em (k,g → -iem)</td></tr>\n<tr><td class=\"lbl\">Masc./Neut. -a,-o</td><td>-ę / unchanged</td><td class=\"red\">-ą</td></tr>\n<tr><td class=\"lbl\">Fem. -a</td><td>-ę</td><td class=\"red\">-ą</td></tr></table></div>\n<div class=\"ex\">herbata + cukier → <span class=\"red\">Proszę herbatę z cukrem.</span> <span class=\"en\">(Tea with sugar, please.)</span><br>kawa + mleko → <span class=\"red\">Proszę kawę z mlekiem.</span><br>pepsi + lód → <span class=\"red\">Proszę pepsi z lodem.</span><br>mięso + sos → <span class=\"red\">Proszę mięso z sosem.</span></div>\n<p class=\"note\">Pattern: [thing ordered, accusative] + z + [added item, instrumental]. Example: <i>Piszę długopisem.</i> (I write with a pen.) — długopis takes -em because it's the instrumental \"tool\" of the verb pisać.</p>\n</div>",
+          "<div class=\"panel full\"><h3>Why cases exist — the quick idea</h3>\n<p>A case ending shows what role the noun plays in the sentence, so the ending alone carries meaning that other languages need extra words for.</p>\n<p>「你怎么去华沙？」 Chinese needs <i>坐火车去的</i> — just 「火车」 sounds wrong. Polish answers with one word: <span class=\"red\">Pociągiem.</span> The instrumental ending already says \"by means of a train\".</p>\n<p class=\"note\">Same for the accusative: it marks the thing an action is done to, so the ending itself tells you the noun is the object.</p>\n</div>"
         ],
         "vocab": [
           {
@@ -1115,6 +1116,196 @@ const CONTENT = {
               {
                 "pl": "długopis",
                 "en": "pen"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "number": 11,
+      "title": "Co lubisz?",
+      "subtitle": "What do you like?",
+      "sections": {
+        "grammar": [
+          "<div class=\"panel full\"><h3>Accusative (biernik) — nouns &amp; adjectives</h3>\n<div class=\"tblwrap\"><table><tr><th>Gender</th><th>Nom. noun</th><th>Acc. noun</th><th>Nom. adj.</th><th>Acc. adj.</th></tr>\n<tr><td class=\"lbl\">Masc. inanimate</td><td>hard consonant</td><td>unchanged</td><td>-y, -i</td><td class=\"red\">unchanged</td></tr>\n<tr><td class=\"lbl\">Masc. animate</td><td>hard consonant</td><td class=\"red\">+a</td><td>-y, -i</td><td class=\"red\">-ego (k, g → -iego)</td></tr>\n<tr><td class=\"lbl\">Masc. -a ending</td><td>-a</td><td class=\"red\">-ę</td><td>-y, -i</td><td class=\"red\">-ego (k, g → -iego)</td></tr>\n<tr><td class=\"lbl\">Fem.</td><td>-a</td><td class=\"red\">-ę</td><td>-a</td><td class=\"red\">-ą</td></tr>\n<tr><td class=\"lbl\">Neut.</td><td>-o</td><td>unchanged</td><td>-e</td><td class=\"red\">unchanged</td></tr></table></div>\n<p><b>Masc.:</b> dobry dom → dobry dom · wysoki brat → wysok<span class=\"red\">iego</span> brat<span class=\"red\">a</span> · smutny tata → smutn<span class=\"red\">ego</span> tat<span class=\"red\">ę</span><br>\n<b>Fem.:</b> ładna ciocia → ładn<span class=\"red\">ą</span> cioci<span class=\"red\">ę</span> &nbsp;·&nbsp; <b>Neut.:</b> nowe auto → nowe auto · dobre dziecko → dobr<span class=\"red\">ego</span> dzie<span class=\"red\">ciaka</span></p>\n<p class=\"note\">The adjective copies the noun's gender and animacy. Note the last example switches to <b>dzieciak</b> (colloquial masc. for \"kid\"), which is why it takes the animate masculine ending — plain neuter <i>dziecko</i> would stay <i>dobre dziecko</i>.</p>\n</div>",
+          "<div class=\"panel\"><h3>lubić — to like</h3>\n<div class=\"tblwrap\"><table><tr><th></th><th>Sing.</th><th></th><th>Plural</th><th></th></tr>\n<tr><td class=\"lbl\">ja</td><td>lubi<span class=\"red\">ę</span></td><td class=\"lbl\">my</td><td>lubi<span class=\"red\">my</span></td><td></td></tr>\n<tr><td class=\"lbl\">ty</td><td>lubi<span class=\"red\">sz</span></td><td class=\"lbl\">wy</td><td>lubi<span class=\"red\">cie</span></td><td></td></tr>\n<tr><td class=\"lbl\">on/ona/ono</td><td>lubi</td><td class=\"lbl\">oni/one</td><td>lubi<span class=\"red\">ą</span></td><td></td></tr></table></div>\n<p class=\"note\">lubić + noun in the <b>accusative</b></p>\n<div class=\"ex\">Co lubisz? — <span class=\"red\">Lubię nowy dom.</span><br>Co on/ona lubi? — <span class=\"red\">On/Ona lubi czarnego kota.</span> <span class=\"en\">(czarny kot = black cat)</span><br>Co lubicie? — <span class=\"red\">Lubimy kawę z mlekiem.</span><br><span class=\"red\">Ja lubię kawę z mlekiem, a ona lubi czarną herbatę z cytryną.</span></div>\n</div>",
+          "<div class=\"panel\"><h3>Kogo lubisz? — possessives in the accusative</h3>\n<p class=\"note\">Kto → accusative <b>Kogo</b> (whom)</p>\n<div class=\"tblwrap\"><table><tr><th></th><th>ja</th><th>ty</th><th>on/ono</th><th>ona</th></tr>\n<tr><td class=\"lbl\">Masc. anim.</td><td>mój → <span class=\"red\">mojego</span></td><td>twój → <span class=\"red\">twojego</span></td><td>jego</td><td>jej</td></tr>\n<tr><td class=\"lbl\">Fem.</td><td>moja → <span class=\"red\">moją</span></td><td>twoja → <span class=\"red\">twoją</span></td><td>jego</td><td>jej</td></tr>\n<tr><td class=\"lbl\">Neut.</td><td>moje</td><td>twoje</td><td>jego</td><td>jej</td></tr></table></div>\n<div class=\"tblwrap\"><table><tr><th></th><th>my</th><th>wy</th><th>oni/one</th></tr>\n<tr><td class=\"lbl\">Masc. anim.</td><td>nasz → <span class=\"red\">naszego</span></td><td>wasz → <span class=\"red\">waszego</span></td><td>ich</td></tr>\n<tr><td class=\"lbl\">Fem.</td><td>nasza → <span class=\"red\">naszą</span></td><td>wasza → <span class=\"red\">waszą</span></td><td>ich</td></tr>\n<tr><td class=\"lbl\">Neut.</td><td>nasze</td><td>wasze</td><td>ich</td></tr></table></div>\n<p class=\"note\">Neuter (and inanimate masc.) possessives keep the nominative form: moje / twoje / nasze / wasze. jego, jej, ich never change.</p>\n<div class=\"ex\"><span class=\"red\">Lubię twoją siostrę.</span> <span class=\"en\">(I like your sister.)</span><br><span class=\"red\">Ona lubi naszego brata.</span><br>Wasz syn jest bardzo przystojny. — <span class=\"red\">Dziękuję, bo on ma przystojnego ojca.</span> <span class=\"en\">(ojciec → ojca)</span></div>\n</div>",
+          "<div class=\"panel full\"><h3>interesować się — to be interested in (+ instrumental)</h3>\n<div class=\"tblwrap\"><table><tr><th></th><th>Sing.</th><th></th><th>Plural</th><th></th></tr>\n<tr><td class=\"lbl\">ja</td><td>interesuj<span class=\"red\">ę</span></td><td class=\"lbl\">my</td><td>interesuje<span class=\"red\">my</span></td><td></td></tr>\n<tr><td class=\"lbl\">ty</td><td>interesuje<span class=\"red\">sz</span></td><td class=\"lbl\">wy</td><td>interesuje<span class=\"red\">cie</span></td><td></td></tr>\n<tr><td class=\"lbl\">on/ona/ono</td><td>interesuje</td><td class=\"lbl\">oni/one</td><td>interesuj<span class=\"red\">ą</span></td><td></td></tr></table></div>\n<div class=\"tblwrap\"><table><tr><th>Gender</th><th>Nom. noun</th><th>Instr. noun</th><th>Instr. adj.</th></tr>\n<tr><td class=\"lbl\">Masc.</td><td>hard consonant</td><td class=\"red\">-em (k, g → -iem)</td><td class=\"red\">-ym (k, g → -im)</td></tr>\n<tr><td class=\"lbl\">Masc. -a ending</td><td>-a</td><td class=\"red\">-ą</td><td class=\"red\">-ym (k, g → -im)</td></tr>\n<tr><td class=\"lbl\">Fem.</td><td>-a</td><td class=\"red\">-ą</td><td class=\"red\">-ą</td></tr>\n<tr><td class=\"lbl\">Neut.</td><td>-o</td><td>same as masc.</td><td>same as masc.</td></tr></table></div>\n<div class=\"ex\"><b>Czym się interesujesz?</b> <span class=\"en\">(What are you interested in?)</span> &nbsp;·&nbsp; <b>Kim się interesujesz?</b> <span class=\"en\">(Who are you interested in?)</span></div>\n<p class=\"note\">Contrast: lubić takes the accusative, interesować się takes the instrumental — Lubię jazz. vs. Interesuję się jazzem.</p>\n</div>",
+          "<div class=\"panel full\"><h3>Accusative vs. instrumental — side by side</h3>\n<div class=\"tblwrap\"><table><tr><th>Gender</th><th>Nominative</th><th>Accusative (lubić)</th><th>Instrumental (interesować się)</th></tr>\n<tr><td class=\"lbl\">Masc. inanimate</td><td>dobry dom</td><td>dobry dom</td><td>dobr<span class=\"red\">ym</span> dom<span class=\"red\">em</span></td></tr>\n<tr><td class=\"lbl\">Masc. animate</td><td>wysoki brat</td><td>wysok<span class=\"red\">iego</span> brat<span class=\"red\">a</span></td><td>wysok<span class=\"red\">im</span> brat<span class=\"red\">em</span></td></tr>\n<tr><td class=\"lbl\">Masc. -a ending</td><td>smutny tata</td><td>smutn<span class=\"red\">ego</span> tat<span class=\"red\">ę</span></td><td>smutn<span class=\"red\">ym</span> tat<span class=\"red\">ą</span></td></tr>\n<tr><td class=\"lbl\">Fem.</td><td>ładna ciocia</td><td>ładn<span class=\"red\">ą</span> cioci<span class=\"red\">ę</span></td><td>ładn<span class=\"red\">ą</span> cioci<span class=\"red\">ą</span></td></tr>\n<tr><td class=\"lbl\">Neut.</td><td>nowe auto</td><td>nowe auto</td><td>now<span class=\"red\">ym</span> aut<span class=\"red\">em</span></td></tr>\n<tr><td class=\"lbl\">Neut. (colloq.)</td><td>dobre dziecko</td><td>dobr<span class=\"red\">ego</span> dzie<span class=\"red\">ciaka</span></td><td>dobr<span class=\"red\">ym</span> dzie<span class=\"red\">ckiem</span></td></tr></table></div>\n<p class=\"note\">Feminine is the tricky one: the adjective is <b>-ą</b> in both cases, so only the noun ending tells them apart — <b>-ę</b> accusative vs. <b>-ą</b> instrumental.</p>\n</div>",
+          "<div class=\"panel full\"><h3>Practice — the same 15 words in both cases</h3>\n<div class=\"tblwrap\"><table><tr><th></th><th>Nominative</th><th>On lubi… (acc.)</th><th>Ona interesuje się… (instr.)</th></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"ogrodnictwo, ogrodnictwem\" aria-label=\"Play ogrodnictwo\">🔊</button></td><td>ogrodnictwo <span class=\"en\">(gardening)</span></td><td>ogrodnictwo</td><td>ogrodnictw<span class=\"red\">em</span></td></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"malarstwo, malarstwem\" aria-label=\"Play malarstwo\">🔊</button></td><td>malarstwo <span class=\"en\">(painting)</span></td><td>malarstwo</td><td>malarstw<span class=\"red\">em</span></td></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"bilard, bilardem\" aria-label=\"Play bilard\">🔊</button></td><td>bilard <span class=\"en\">(billiards)</span></td><td>bilard</td><td>bilard<span class=\"red\">em</span></td></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"koszykówka, koszykówkę, koszykówką\" aria-label=\"Play koszykówka\">🔊</button></td><td>koszykówka <span class=\"en\">(basketball)</span></td><td>koszykówk<span class=\"red\">ę</span></td><td>koszykówk<span class=\"red\">ą</span></td></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"archeologia, archeologię, archeologią\" aria-label=\"Play archeologia\">🔊</button></td><td>archeologia <span class=\"en\">(archaeology)</span></td><td>archeologi<span class=\"red\">ę</span></td><td>archeologi<span class=\"red\">ą</span></td></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"socjologia, socjologię, socjologią\" aria-label=\"Play socjologia\">🔊</button></td><td>socjologia <span class=\"en\">(sociology)</span></td><td>socjologi<span class=\"red\">ę</span></td><td>socjologi<span class=\"red\">ą</span></td></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"boks, boksem\" aria-label=\"Play boks\">🔊</button></td><td>boks <span class=\"en\">(boxing)</span></td><td>boks</td><td>boks<span class=\"red\">em</span></td></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"Szekspir, Szekspira, Szekspirem\" aria-label=\"Play Szekspir\">🔊</button></td><td>Szekspir <span class=\"en\">(Shakespeare)</span></td><td>Szekspir<span class=\"red\">a</span></td><td>Szekspir<span class=\"red\">em</span></td></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"komunizm, komunizmem\" aria-label=\"Play komunizm\">🔊</button></td><td>komunizm <span class=\"en\">(communism)</span></td><td>komunizm</td><td>komunizm<span class=\"red\">em</span></td></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"nurkowanie, nurkowaniem\" aria-label=\"Play nurkowanie\">🔊</button></td><td>nurkowanie <span class=\"en\">(diving)</span></td><td>nurkowanie</td><td>nurkowani<span class=\"red\">em</span></td></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"fotografowanie, fotografowaniem\" aria-label=\"Play fotografowanie\">🔊</button></td><td>fotografowanie <span class=\"en\">(photography)</span></td><td>fotografowanie</td><td>fotografowani<span class=\"red\">em</span></td></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"Beckett, Becketta, Beckettem\" aria-label=\"Play Beckett\">🔊</button></td><td>Beckett</td><td>Beckett<span class=\"red\">a</span></td><td>Beckett<span class=\"red\">em</span></td></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"reklama, reklamę, reklamą\" aria-label=\"Play reklama\">🔊</button></td><td>reklama <span class=\"en\">(advertising)</span></td><td>reklam<span class=\"red\">ę</span></td><td>reklam<span class=\"red\">ą</span></td></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"siatkówka, siatkówkę, siatkówką\" aria-label=\"Play siatkówka\">🔊</button></td><td>siatkówka <span class=\"en\">(volleyball)</span></td><td>siatkówk<span class=\"red\">ę</span></td><td>siatkówk<span class=\"red\">ą</span></td></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"hipika, hipikę, hipiką\" aria-label=\"Play hipika\">🔊</button></td><td>hipika <span class=\"en\">(horse riding)</span></td><td>hipik<span class=\"red\">ę</span></td><td>hipik<span class=\"red\">ą</span></td></tr></table></div>\n<p class=\"note\">Click 🔊 to hear the forms read in Polish. People's names decline too: Szekspir → Szekspira (animate masc.), Beckett → Becketta. Neuter words in -o and -nie, and inanimate masc. words, don't change in the accusative at all.</p>\n</div>",
+          "<div class=\"panel full\"><h3>Reading — Co lubisz? Czym się interesujesz?</h3>\n<p style=\"font-size:13px\">Li Yundi jest muzykiem. Interesuje się muzyką klasyczną i turystyką. On bardzo lubi stare kino.<br>\nIzumi jest studentką. Lubi sport ekstremalny: wspinaczkę. Interesuje się jazzem i pływaniem. Ona lubi czekoladę.<br>\nEla jest informatykiem. Interesuje się reklamą i sportem. Lubi taniec. Lubi geografię i historię.</p>\n<p><b>Exercise:</b> put the nouns and adjectives back into the nominative</p>\n<div class=\"tblwrap\"><table><tr><th>Person</th><th>Nominative forms</th></tr>\n<tr><td class=\"lbl\">Li Yundi</td><td class=\"red\">muzyka klasyczna, turystyka, stare kino</td></tr>\n<tr><td class=\"lbl\">Izumi</td><td class=\"red\">sport ekstremalny, wspinaczka, jazz, pływanie, czekolada</td></tr>\n<tr><td class=\"lbl\">Ela</td><td class=\"red\">informatyk, reklama, sport, taniec, geografia, historia</td></tr></table></div>\n</div>"
+        ],
+        "vocab": [
+          {
+            "category": "Core words",
+            "items": [
+              {
+                "pl": "lubić",
+                "en": "to like (+ accusative)"
+              },
+              {
+                "pl": "interesować się",
+                "en": "to be interested in (+ instrumental)"
+              },
+              {
+                "pl": "kogo",
+                "en": "whom (accusative of kto)"
+              },
+              {
+                "pl": "czym",
+                "en": "what (instrumental)"
+              },
+              {
+                "pl": "bardzo",
+                "en": "very / a lot"
+              }
+            ]
+          },
+          {
+            "category": "Interests & hobbies",
+            "items": [
+              {
+                "pl": "muzyka klasyczna",
+                "en": "classical music"
+              },
+              {
+                "pl": "turystyka",
+                "en": "tourism / travel"
+              },
+              {
+                "pl": "kino",
+                "en": "cinema"
+              },
+              {
+                "pl": "sport",
+                "en": "sport"
+              },
+              {
+                "pl": "sport ekstremalny",
+                "en": "extreme sport"
+              },
+              {
+                "pl": "wspinaczka",
+                "en": "rock climbing"
+              },
+              {
+                "pl": "pływanie",
+                "en": "swimming"
+              },
+              {
+                "pl": "jazz",
+                "en": "jazz"
+              },
+              {
+                "pl": "taniec",
+                "en": "dance"
+              },
+              {
+                "pl": "reklama",
+                "en": "advertising"
+              },
+              {
+                "pl": "geografia",
+                "en": "geography"
+              },
+              {
+                "pl": "historia",
+                "en": "history"
+              }
+            ]
+          },
+          {
+            "category": "More interests (review drill)",
+            "items": [
+              {
+                "pl": "ogrodnictwo",
+                "en": "gardening"
+              },
+              {
+                "pl": "malarstwo",
+                "en": "painting"
+              },
+              {
+                "pl": "bilard",
+                "en": "billiards"
+              },
+              {
+                "pl": "koszykówka",
+                "en": "basketball"
+              },
+              {
+                "pl": "siatkówka",
+                "en": "volleyball"
+              },
+              {
+                "pl": "boks",
+                "en": "boxing"
+              },
+              {
+                "pl": "hipika",
+                "en": "horse riding"
+              },
+              {
+                "pl": "nurkowanie",
+                "en": "diving"
+              },
+              {
+                "pl": "fotografowanie",
+                "en": "photography"
+              },
+              {
+                "pl": "archeologia",
+                "en": "archaeology"
+              },
+              {
+                "pl": "socjologia",
+                "en": "sociology"
+              },
+              {
+                "pl": "komunizm",
+                "en": "communism"
+              }
+            ]
+          },
+          {
+            "category": "Other nouns",
+            "items": [
+              {
+                "pl": "kot",
+                "en": "cat"
+              },
+              {
+                "pl": "cytryna",
+                "en": "lemon"
+              },
+              {
+                "pl": "czekolada",
+                "en": "chocolate"
+              },
+              {
+                "pl": "ciocia",
+                "en": "aunt"
+              },
+              {
+                "pl": "syn",
+                "en": "son"
+              },
+              {
+                "pl": "ojciec",
+                "en": "father (acc. ojca)"
+              },
+              {
+                "pl": "dziecko / dzieciak",
+                "en": "child / kid (colloq.)"
+              },
+              {
+                "pl": "informatyk",
+                "en": "IT specialist"
+              },
+              {
+                "pl": "muzyk",
+                "en": "musician"
               }
             ]
           }

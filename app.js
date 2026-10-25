@@ -19,7 +19,8 @@
   const state = {
     currentTab: CONTENT.tabs[0] ? CONTENT.tabs[0].id : null,
     currentLesson: 'all',
-    currentSearch: ''
+    currentSearch: '',
+    rate: 0.8
   };
 
   /* ---------- helpers ---------- */
@@ -54,8 +55,112 @@
     const utter = new SpeechSynthesisUtterance(text);
     utter.lang = 'pl-PL';
     if (polishVoice) utter.voice = polishVoice;
-    utter.rate = 0.9;
+    utter.rate = state.rate;
     window.speechSynthesis.speak(utter);
+  }
+
+  /* ---------- playback speed control ---------- */
+
+  const RATES = [0.6, 0.8, 1];
+
+  function loadRate(){
+    try {
+      const saved = parseFloat(localStorage.getItem('polishRate'));
+      if (RATES.includes(saved)) state.rate = saved;
+    } catch (e) { /* file:// or blocked storage — keep the default */ }
+  }
+
+  function buildSpeedControl(){
+    const row = document.querySelector('.toolrow');
+    if (!row || !speechSupported) return;
+    const wrap = document.createElement('div');
+    wrap.className = 'speed';
+    wrap.innerHTML = '<span class="speed-label">Speed</span>' + RATES.map(r =>
+      `<button type="button" class="speed-btn" data-rate="${r}" aria-pressed="${r === state.rate}">${r}×</button>`
+    ).join('');
+    wrap.addEventListener('click', e => {
+      const btn = e.target.closest('.speed-btn');
+      if (!btn) return;
+      state.rate = parseFloat(btn.dataset.rate);
+      wrap.querySelectorAll('.speed-btn').forEach(b =>
+        b.setAttribute('aria-pressed', String(parseFloat(b.dataset.rate) === state.rate)));
+      try { localStorage.setItem('polishRate', String(state.rate)); } catch (e) { /* ignore */ }
+    });
+    row.appendChild(wrap);
+  }
+
+  // Polish-only text of a node: drop English glosses, CJK notes and nested buttons.
+  function polishTextOf(node){
+    const clone = node.cloneNode(true);
+    clone.querySelectorAll('.en, .note, .speak-btn').forEach(el => el.remove());
+    clone.querySelectorAll('br').forEach(br => br.replaceWith(' '));
+    return clone.textContent
+      .replace(/[　-〿一-鿿＀-￯]+/g, ' ')
+      .replace(/[（）]/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+
+  function speakButton(text, label){
+    return `<button type="button" class="speak-btn" data-speak="${esc(text)}" ` +
+           `aria-label="Play ${esc(label)}" ${speechSupported ? '' : 'disabled'}>🔊</button>`;
+  }
+
+  // Adds pronunciation to grammar-style panels: one button per example box,
+  // one per conjugation table (reads the whole paradigm), and click-to-speak
+  // on individual table cells.
+  // One button per line, so a click never plays more than a sentence or two.
+  function addLineButtons(el){
+    el.innerHTML = el.innerHTML.split(/<br\s*\/?>/i).map(line => {
+      const probe = document.createElement('div');
+      probe.innerHTML = line;
+      const text = polishTextOf(probe);
+      if (!text) return line;
+
+      if (!probe.children.length && text.length > 110) {
+        return (line.match(/[^.?!]+[.?!]*\s*/g) || [line]).map(sentence => {
+          const part = document.createElement('div');
+          part.innerHTML = sentence;
+          const t = polishTextOf(part);
+          return t ? speakButton(t, 'sentence') + ' ' + sentence : sentence;
+        }).join(' ');
+      }
+      return speakButton(text, 'line') + ' ' + line;
+    }).join('<br>');
+  }
+
+  function addPanelAudio(root){
+    root.querySelectorAll('.panel .ex').forEach(ex => {
+      if (polishTextOf(ex)) addLineButtons(ex);
+    });
+
+    // Explanatory prose stays silent — only paragraphs that are a solid block of
+    // Polish (the reading passages) get sentence-by-sentence buttons.
+    root.querySelectorAll('.panel p:not(.note)').forEach(p => {
+      const text = polishTextOf(p);
+      if (text.length > 110 && /[ąćęłńóśźż]/i.test(text) && !p.querySelector('.en, b, i')) {
+        addLineButtons(p);
+      }
+    });
+
+    root.querySelectorAll('.panel table').forEach(table => {
+      const labels = [...table.querySelectorAll('td.lbl')].map(td => td.textContent.trim());
+      if (!labels.includes('ja') || !labels.includes('ty')) return;
+      const forms = [...table.querySelectorAll('td')]
+        .filter(td => !td.classList.contains('lbl') && polishTextOf(td))
+        .map(td => polishTextOf(td));
+      if (!forms.length) return;
+      const h3 = table.closest('.panel').querySelector('h3');
+      if (h3) h3.insertAdjacentHTML('beforeend', ' ' + speakButton(forms.join(', '), 'full conjugation'));
+    });
+
+    root.querySelectorAll('.panel table td').forEach(td => {
+      if (td.classList.contains('speak')) return;
+      const text = polishTextOf(td);
+      if (!text || text.length > 60) return;
+      td.classList.add('say-cell');
+      td.dataset.speak = text;
+    });
   }
 
   function lessonHasTab(lesson, tabId){
@@ -90,6 +195,7 @@
           <div class="grid" data-columns="${tab.columns || 2}">${panels}</div>
         </section>`;
     }).join('') || `<p class="empty-note">No content yet for this tab.</p>`;
+    addPanelAudio(root);
   }
 
   // kind: "vocab" — word list grouped by lesson, then by category.
@@ -265,15 +371,19 @@
 
   /* ---------- boot ---------- */
 
+  loadRate();
   buildScaffold();
   renderAllTabs();
   renderPills();
+  buildSpeedControl();
   document.getElementById('search').addEventListener('input', e => applySearch(e.target.value));
   document.getElementById('main-panes').addEventListener('click', e => {
     const btn = e.target.closest('.speak-btn');
     if (btn) { speakPolish(btn.dataset.speak); return; }
     const plCell = e.target.closest('.vtable td.pl');
-    if (plCell) speakPolish(plCell.textContent);
+    if (plCell) { speakPolish(plCell.textContent); return; }
+    const sayCell = e.target.closest('.say-cell');
+    if (sayCell) speakPolish(sayCell.dataset.speak);
   });
   if (state.currentTab) setTab(state.currentTab);
 })();
