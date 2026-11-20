@@ -143,7 +143,21 @@
       }
     });
 
-    root.querySelectorAll('.panel table').forEach(table => {
+    // Multi-verb tables (<table class="conj">: one verb per column, pronoun rows)
+    // get one button per verb in its header, reading that column top to bottom.
+    root.querySelectorAll('.panel table.conj').forEach(table => {
+      const rows = [...table.querySelectorAll('tr')];
+      const head = rows.shift();
+      [...head.children].forEach((th, i) => {
+        if (i === 0) return;
+        const forms = rows.map(r => r.children[i]).filter(Boolean)
+          .map(td => polishTextOf(td)).filter(Boolean);
+        if (forms.length) th.insertAdjacentHTML('beforeend', ' ' +
+          speakButton(forms.join(', '), th.textContent.trim() + ' conjugation'));
+      });
+    });
+
+    root.querySelectorAll('.panel table:not(.conj)').forEach(table => {
       const labels = [...table.querySelectorAll('td.lbl')].map(td => td.textContent.trim());
       if (!labels.includes('ja') || !labels.includes('ty')) return;
       const forms = [...table.querySelectorAll('td')]

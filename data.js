@@ -1311,6 +1311,277 @@ const CONTENT = {
           }
         ]
       }
+    },
+    {
+      "number": 12,
+      "title": "Co lubisz robić?",
+      "subtitle": "What do you like to do?",
+      "sections": {
+        "grammar": [
+          "<div class=\"panel full\"><h3>Hobbies — verbs (喜好——动词)</h3>\n<div class=\"tblwrap\"><table><tr><th></th><th>Polish</th><th>English</th><th>中文</th><th>Base word</th></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"czytać książki\" aria-label=\"Play czytać książki\">🔊</button></td><td>czytać książki</td><td><span class=\"en\">to read books</span></td><td>阅读、读书</td><td><span class=\"en\">książka = book</span></td></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"malować\" aria-label=\"Play malować\">🔊</button></td><td>malować</td><td><span class=\"en\">to paint</span></td><td>绘画</td><td><span class=\"en\"></span></td></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"oglądać filmy\" aria-label=\"Play oglądać filmy\">🔊</button></td><td>oglądać filmy</td><td><span class=\"en\">to watch films</span></td><td>看电影</td><td><span class=\"en\">film = film</span></td></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"grać na gitarze\" aria-label=\"Play grać na gitarze\">🔊</button></td><td>grać na gitarze</td><td><span class=\"en\">to play the guitar</span></td><td>弹吉他</td><td><span class=\"en\">gitara = guitar</span></td></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"rysować\" aria-label=\"Play rysować\">🔊</button></td><td>rysować</td><td><span class=\"en\">to draw</span></td><td>画图、设计</td><td><span class=\"en\"></span></td></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"uprawiać sport\" aria-label=\"Play uprawiać sport\">🔊</button></td><td>uprawiać sport</td><td><span class=\"en\">to do sport</span></td><td>做运动</td><td><span class=\"en\"></span></td></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"słuchać muzyki\" aria-label=\"Play słuchać muzyki\">🔊</button></td><td>słuchać muzyki</td><td><span class=\"en\">to listen to music</span></td><td>听音乐</td><td><span class=\"en\">muzyka = music</span></td></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"pływać\" aria-label=\"Play pływać\">🔊</button></td><td>pływać</td><td><span class=\"en\">to swim</span></td><td>游泳</td><td><span class=\"en\"></span></td></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"biegać\" aria-label=\"Play biegać\">🔊</button></td><td>biegać</td><td><span class=\"en\">to run / jog</span></td><td>跑步</td><td><span class=\"en\"></span></td></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"śpiewać\" aria-label=\"Play śpiewać\">🔊</button></td><td>śpiewać</td><td><span class=\"en\">to sing</span></td><td>唱歌</td><td><span class=\"en\"></span></td></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"podróżować\" aria-label=\"Play podróżować\">🔊</button></td><td>podróżować</td><td><span class=\"en\">to travel</span></td><td>旅游</td><td><span class=\"en\"></span></td></tr></table></div>\n<p class=\"note\">Learn these as fixed phrases for now: <b>słuchać</b> takes the genitive (muzyka → muzyki), and <b>grać na</b> + instrument takes the locative (gitara → na gitarze). malować = paint (with paint) · rysować = draw (pencil/pen, also technical drawing).</p>\n</div>",
+          "<div class=\"panel full\"><h3>Verb aspect — imperfective vs. perfective (未完成 / 完成动词)</h3>\n<p>Polish verbs come in two kinds. At the beginner level we only learn <b>imperfective</b> verbs and their forms.</p>\n<div class=\"tblwrap\"><table><tr><th>Aspect</th><th>Meaning</th><th>Present-tense form means…</th></tr>\n<tr><td class=\"lbl\">Imperfective (未完成动词)</td><td>ongoing, repeated or habitual action — focus on the <b>process</b></td><td>present: \"I read / I am reading\" (has past and future forms too)</td></tr>\n<tr><td class=\"lbl\">Perfective (完成动词)</td><td>a completed, one-off action — focus on the <b>result</b></td><td class=\"red\">future: \"I will (finish)…\" — no real present tense; has a past form</td></tr></table></div>\n<div class=\"ex\"><span class=\"red\">Czytam książkę.</span> <span class=\"en\">(I'm reading the book — the process.)</span><br><span class=\"red\">Przeczytam książkę.</span> <span class=\"en\">(I will finish reading the book — the result.)</span></div>\n<p class=\"note\">我在读这本书，强调读书的过程 · 我将要读完这本书，强调读书的结果。</p>\n</div>",
+          "<div class=\"panel full\"><h3>Present tense, group 1: -ować → -uję</h3>\n<p class=\"note\">Verbs ending in <b>-ować</b> drop -owa- and take -uję, -ujesz, … -ują (ja, ty, oni/one).</p>\n<div class=\"tblwrap\"><table class=\"conj\"><tr><th></th><th>malować</th><th>rysować</th><th>podróżować</th></tr>\n<tr><td class=\"lbl\">ja</td><td>mal<span class=\"red\">uję</span></td><td>rys<span class=\"red\">uję</span></td><td>podróż<span class=\"red\">uję</span></td></tr>\n<tr><td class=\"lbl\">ty</td><td>mal<span class=\"red\">ujesz</span></td><td>rys<span class=\"red\">ujesz</span></td><td>podróż<span class=\"red\">ujesz</span></td></tr>\n<tr><td class=\"lbl\">on/ona/ono</td><td>mal<span class=\"red\">uje</span></td><td>rys<span class=\"red\">uje</span></td><td>podróż<span class=\"red\">uje</span></td></tr>\n<tr><td class=\"lbl\">my</td><td>mal<span class=\"red\">ujemy</span></td><td>rys<span class=\"red\">ujemy</span></td><td>podróż<span class=\"red\">ujemy</span></td></tr>\n<tr><td class=\"lbl\">wy</td><td>mal<span class=\"red\">ujecie</span></td><td>rys<span class=\"red\">ujecie</span></td><td>podróż<span class=\"red\">ujecie</span></td></tr>\n<tr><td class=\"lbl\">oni/one</td><td>mal<span class=\"red\">ują</span></td><td>rys<span class=\"red\">ują</span></td><td>podróż<span class=\"red\">ują</span></td></tr></table></div>\n<p class=\"note\">Same pattern you saw in ch.11: interesować się → interesuję się. Click 🔊 in a column header to hear the whole verb.</p>\n</div>",
+          "<div class=\"panel full\"><h3>Present tense, group 2: -ać → -am</h3>\n<p class=\"note\">Verbs ending in <b>-ać</b> drop -ć and take -am, -asz, -a, -amy, -acie, -ają. Also in this group: oglądać (oglądam), pływać (pływam).</p>\n<div class=\"tblwrap\"><table class=\"conj\"><tr><th></th><th>biegać</th><th>czytać</th><th>śpiewać</th><th>grać</th><th>słuchać</th><th>uprawiać</th></tr>\n<tr><td class=\"lbl\">ja</td><td>bieg<span class=\"red\">am</span></td><td>czyt<span class=\"red\">am</span></td><td>śpiew<span class=\"red\">am</span></td><td>gr<span class=\"red\">am</span></td><td>słuch<span class=\"red\">am</span></td><td>uprawi<span class=\"red\">am</span></td></tr>\n<tr><td class=\"lbl\">ty</td><td>bieg<span class=\"red\">asz</span></td><td>czyt<span class=\"red\">asz</span></td><td>śpiew<span class=\"red\">asz</span></td><td>gr<span class=\"red\">asz</span></td><td>słuch<span class=\"red\">asz</span></td><td>uprawi<span class=\"red\">asz</span></td></tr>\n<tr><td class=\"lbl\">on/ona/ono</td><td>bieg<span class=\"red\">a</span></td><td>czyt<span class=\"red\">a</span></td><td>śpiew<span class=\"red\">a</span></td><td>gr<span class=\"red\">a</span></td><td>słuch<span class=\"red\">a</span></td><td>uprawi<span class=\"red\">a</span></td></tr>\n<tr><td class=\"lbl\">my</td><td>bieg<span class=\"red\">amy</span></td><td>czyt<span class=\"red\">amy</span></td><td>śpiew<span class=\"red\">amy</span></td><td>gr<span class=\"red\">amy</span></td><td>słuch<span class=\"red\">amy</span></td><td>uprawi<span class=\"red\">amy</span></td></tr>\n<tr><td class=\"lbl\">wy</td><td>bieg<span class=\"red\">acie</span></td><td>czyt<span class=\"red\">acie</span></td><td>śpiew<span class=\"red\">acie</span></td><td>gr<span class=\"red\">acie</span></td><td>słuch<span class=\"red\">acie</span></td><td>uprawi<span class=\"red\">acie</span></td></tr>\n<tr><td class=\"lbl\">oni/one</td><td>bieg<span class=\"red\">ają</span></td><td>czyt<span class=\"red\">ają</span></td><td>śpiew<span class=\"red\">ają</span></td><td>gr<span class=\"red\">ają</span></td><td>słuch<span class=\"red\">ają</span></td><td>uprawi<span class=\"red\">ają</span></td></tr></table></div>\n</div>",
+          "<div class=\"panel\"><h3>lubić + noun or + infinitive</h3>\n<p class=\"note\">1. <b>lubić + accusative</b> (ch.11): Lubię kawę.<br>2. <b>lubić + infinitive</b> (动词原型): Lubię biegać.</p>\n<div class=\"ex\">Co lubisz robić? <span class=\"en\">(What do you like to do?)</span><br><span class=\"red\">Lubię biegać i pływać.</span><br>Co on lubi robić?<br><span class=\"red\">On lubi słuchać muzyki.</span><br>Co lubi robić twoja siostra?<br><span class=\"red\">Ona lubi malować.</span></div>\n<p class=\"note\">Only lubić changes for the person — the second verb stays in the infinitive.</p>\n</div>",
+          "<div class=\"panel\"><h3>Translation practice (翻译)</h3>\n<p>我是Zofia。我喜欢音乐和读书。这是我的兄弟，他是学生。他对运动感兴趣，喜欢游泳和跑步。</p>\n<div class=\"ex\"><span class=\"red\">Jestem Zofia.</span><br><span class=\"red\">Lubię muzykę i czytać książki.</span><br><span class=\"red\">To jest mój brat, on jest studentem.</span><br><span class=\"red\">Interesuje się sportem, lubi pływać i biegać.</span></div>\n<p class=\"note\">The slide writes \"Interesuję się\", but the subject is the brother (on), so it should be <b>interesuje</b> się. muzykę = accusative (lubić + noun), czytać = infinitive (lubić + verb); sportem = instrumental (interesować się).</p>\n</div>"
+        ],
+        "vocab": [
+          {
+            "category": "Core words",
+            "items": [
+              {
+                "pl": "robić",
+                "en": "to do / make"
+              },
+              {
+                "pl": "Co lubisz robić?",
+                "en": "What do you like to do?"
+              },
+              {
+                "pl": "hobby",
+                "en": "hobby"
+              }
+            ]
+          },
+          {
+            "category": "Hobbies (verbs)",
+            "items": [
+              {
+                "pl": "czytać książki",
+                "en": "to read books"
+              },
+              {
+                "pl": "malować",
+                "en": "to paint"
+              },
+              {
+                "pl": "oglądać filmy",
+                "en": "to watch films"
+              },
+              {
+                "pl": "grać na gitarze",
+                "en": "to play the guitar"
+              },
+              {
+                "pl": "rysować",
+                "en": "to draw"
+              },
+              {
+                "pl": "uprawiać sport",
+                "en": "to do sport"
+              },
+              {
+                "pl": "słuchać muzyki",
+                "en": "to listen to music"
+              },
+              {
+                "pl": "pływać",
+                "en": "to swim"
+              },
+              {
+                "pl": "biegać",
+                "en": "to run / jog"
+              },
+              {
+                "pl": "śpiewać",
+                "en": "to sing"
+              },
+              {
+                "pl": "podróżować",
+                "en": "to travel"
+              }
+            ]
+          },
+          {
+            "category": "Nouns",
+            "items": [
+              {
+                "pl": "książka",
+                "en": "book"
+              },
+              {
+                "pl": "film",
+                "en": "film"
+              },
+              {
+                "pl": "gitara",
+                "en": "guitar"
+              },
+              {
+                "pl": "muzyka",
+                "en": "music"
+              }
+            ]
+          },
+          {
+            "category": "Aspect pair",
+            "items": [
+              {
+                "pl": "czytać",
+                "en": "to read (imperfective — process)"
+              },
+              {
+                "pl": "przeczytać",
+                "en": "to read through / finish reading (perfective — result)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "number": 13,
+      "title": "Co robisz?",
+      "subtitle": "What are you doing?",
+      "sections": {
+        "grammar": [
+          "<div class=\"panel full\"><h3>Review: -ać verbs (-am, -asz, -a, -amy, -acie, -ają)</h3>\n<div class=\"tblwrap\"><table class=\"conj\"><tr><th></th><th>czytać</th><th>oglądać</th><th>wyglądać</th></tr>\n<tr><td class=\"lbl\">ja</td><td>czyt<span class=\"red\">am</span></td><td>ogląd<span class=\"red\">am</span></td><td>wygląd<span class=\"red\">am</span></td></tr>\n<tr><td class=\"lbl\">ty</td><td>czyt<span class=\"red\">asz</span></td><td>ogląd<span class=\"red\">asz</span></td><td>wygląd<span class=\"red\">asz</span></td></tr>\n<tr><td class=\"lbl\">on/ona/ono</td><td>czyt<span class=\"red\">a</span></td><td>ogląd<span class=\"red\">a</span></td><td>wygląd<span class=\"red\">a</span></td></tr>\n<tr><td class=\"lbl\">my</td><td>czyt<span class=\"red\">amy</span></td><td>ogląd<span class=\"red\">amy</span></td><td>wygląd<span class=\"red\">amy</span></td></tr>\n<tr><td class=\"lbl\">wy</td><td>czyt<span class=\"red\">acie</span></td><td>ogląd<span class=\"red\">acie</span></td><td>wygląd<span class=\"red\">acie</span></td></tr>\n<tr><td class=\"lbl\">oni/one</td><td>czyt<span class=\"red\">ają</span></td><td>ogląd<span class=\"red\">ają</span></td><td>wygląd<span class=\"red\">ają</span></td></tr></table></div>\n</div>",
+          "<div class=\"panel\"><h3>czytać vs. oglądać</h3>\n<p class=\"note\"><b>czytać</b> = to read (things with words: books, newspapers) · 阅读，读，看（书、报纸——有字）</p>\n<div class=\"ex\"><span class=\"red\">Lubię czytać książki.</span><br><span class=\"red\">On czyta książkę.</span></div>\n<p class=\"note\"><b>oglądać</b> = to watch / look at (no words: TV, photos, films) · 看，收看（电视、照片——没有字）</p>\n<div class=\"ex\"><span class=\"red\">Lubię oglądać filmy.</span><br><span class=\"red\">Ona ogląda film.</span></div>\n</div>",
+          "<div class=\"panel\"><h3>wyglądać — to look (like)</h3>\n<p class=\"note\">wyglądać = how a person or thing looks · 看起来（人/物）</p>\n<div class=\"ex\"><span class=\"red\">Lubię, jak wyglądasz.</span> <span class=\"en\">(I like how you look.)</span><br><span class=\"red\">Wyglądasz pięknie.</span> <span class=\"en\">(You look beautiful.)</span></div>\n<p class=\"note\">wyglądać + adverb: piękny (beautiful, adj.) → pięknie (beautifully, adv.).</p>\n</div>",
+          "<div class=\"panel full\"><h3>Study tip: build your own sentences (学以致用，融会贯通，温故知新)</h3>\n<p>Polish grammar is complex but mostly regular. Once you know some words, combine them with the grammar you've learned. New words <b>czytać</b> + <b>książka</b> → what can you say?</p>\n<div class=\"tblwrap\"><table><tr><th>Question</th><th>Answer</th></tr>\n<tr><td>Co lubisz czytać? <span class=\"en\">(What do you like to read?)</span></td><td>Lubię czytać książki.</td></tr>\n<tr><td>Co czytasz? <span class=\"en\">(What are you reading?)</span></td><td>Czytam książkę.</td></tr>\n<tr><td>Jaką książkę czytasz? <span class=\"en\">(What book are you reading?)</span></td><td>Czytam książkę biograficzną. <span class=\"en\">(a biography)</span></td></tr></table></div>\n<p class=\"note\"><b>Jaki / jaka / jakie</b> = what kind of (agrees like an adjective): Jaki on jest? · Jaka ona jest? · Jakie ono jest?<br>Accusative: jaki/<b>jakiego</b> (masc. inanim./anim.) · <b>jaką</b> (fem.) · jakie (neut.) — so <i>książka</i> (fem.) → <b>Jaką</b> książkę? (The slide has a typo \"księżkę\".)</p>\n<div class=\"ex\">思考：你喜欢看什么书？我喜欢看生物书。<br><span class=\"red\">Jakie książki lubisz czytać?</span><br><span class=\"red\">Lubię czytać książki biologiczne.</span></div>\n<p class=\"note\">Suggested answer. lubić czytać + plural accusative: książki (fem. plural looks like the nominative).</p>\n</div>",
+          "<div class=\"panel full\"><h3>Study tip: one root, many words — czytać</h3>\n<p class=\"note\">Like English, Polish builds longer words from a basic one with prefixes and suffixes.</p>\n<div class=\"tblwrap\"><table><tr><th></th><th>Word</th><th>Meaning</th></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"czytać\" aria-label=\"Play czytać\">🔊</button></td><td>czytać</td><td>to read — imperfective, ongoing/habitual</td></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"poczytać\" aria-label=\"Play poczytać\">🔊</button></td><td><span class=\"red\">po</span>czytać</td><td>perfective; <b>po-</b> = a bit, for a while (完成一点)</td></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"przeczytać\" aria-label=\"Play przeczytać\">🔊</button></td><td><span class=\"red\">prze</span>czytać</td><td>perfective; <b>prze-</b> ≈ English over-/re-: through to the end (完成、结束)</td></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"czytany\" aria-label=\"Play czytany\">🔊</button></td><td>czyta<span class=\"red\">ny</span></td><td>read (passive participle, \"being read\")</td></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"oczytany\" aria-label=\"Play oczytany\">🔊</button></td><td><span class=\"red\">o</span>czyta<span class=\"red\">ny</span></td><td>well-read</td></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"czytanie\" aria-label=\"Play czytanie\">🔊</button></td><td>czyta<span class=\"red\">nie</span></td><td>reading (the noun)</td></tr></table></div>\n<div class=\"ex\"><span class=\"red\">Bardzo lubię czytać książki.</span> <span class=\"en\">(I really like reading books — a long-term habit.)</span><br><span class=\"red\">Idę poczytać tę książkę.</span> <span class=\"en\">(I'm going to read some of this book.)</span><br><span class=\"red\">Przeczytam tę książkę.</span> <span class=\"en\">(I will read this book to the end.)</span><br><span class=\"red\">Książka jest czytana przez Pawła.</span> <span class=\"en\">(The book is being read by Paweł.)</span><br><span class=\"red\">Bardzo dużo czytam — jestem oczytany.</span> <span class=\"en\">(I read a lot — I'm well-read.)</span><br><span class=\"red\">Lubię czytanie.</span> <span class=\"en\">(= Lubię czytać. I like reading.)</span></div>\n<p class=\"note\">this: ten, ta, to → accusative ten/tego (masc. inanim./anim.), tę (fem.; colloquially tą), to (neut.).</p>\n</div>",
+          "<div class=\"panel full\"><h3>-ić / -yć verbs: -(i)ę, -i/ysz, -i/y, -i/ymy, -i/ycie, -(i)ą</h3>\n<div class=\"tblwrap\"><table class=\"conj\"><tr><th></th><th>lubić</th><th>robić</th><th>uczyć (się)</th></tr>\n<tr><td class=\"lbl\">ja</td><td>lubi<span class=\"red\">ę</span></td><td>robi<span class=\"red\">ę</span></td><td>ucz<span class=\"red\">ę</span> (się)</td></tr>\n<tr><td class=\"lbl\">ty</td><td>lubi<span class=\"red\">sz</span></td><td>robi<span class=\"red\">sz</span></td><td>ucz<span class=\"red\">ysz</span> (się)</td></tr>\n<tr><td class=\"lbl\">on/ona/ono</td><td>lubi<span class=\"red\"></span></td><td>robi<span class=\"red\"></span></td><td>ucz<span class=\"red\">y</span> (się)</td></tr>\n<tr><td class=\"lbl\">my</td><td>lubi<span class=\"red\">my</span></td><td>robi<span class=\"red\">my</span></td><td>ucz<span class=\"red\">ymy</span> (się)</td></tr>\n<tr><td class=\"lbl\">wy</td><td>lubi<span class=\"red\">cie</span></td><td>robi<span class=\"red\">cie</span></td><td>ucz<span class=\"red\">ycie</span> (się)</td></tr>\n<tr><td class=\"lbl\">oni/one</td><td>lubi<span class=\"red\">ą</span></td><td>robi<span class=\"red\">ą</span></td><td>ucz<span class=\"red\">ą</span> (się)</td></tr></table></div>\n<div class=\"ex\">Co lubisz? — <span class=\"red\">Lubię czytanie.</span><br>Co lubisz robić? — <span class=\"red\">Lubię się uczyć.</span><br>Co robisz? — <span class=\"red\">Uczę się.</span> <span class=\"en\">(I'm studying.)</span></div>\n<p class=\"note\">uczyć = to teach (教) · uczyć się = to teach oneself → to learn, study (学习). After -i- in the stem (lubić, robić) the endings are -ę/-ą; after -cz- (uczyć) the -y- shows up instead of -i-.</p>\n</div>",
+          "<div class=\"panel full\"><h3>More -ić verbs: mówić, umówić, zamówić, płacić</h3>\n<div class=\"tblwrap\"><table class=\"conj\"><tr><th></th><th>mówić</th><th>umówić</th><th>zamówić</th><th>płacić</th></tr>\n<tr><td class=\"lbl\">ja</td><td>mówi<span class=\"red\">ę</span></td><td>umówi<span class=\"red\">ę</span></td><td>zamówi<span class=\"red\">ę</span></td><td>płac<span class=\"red\">ę</span></td></tr>\n<tr><td class=\"lbl\">ty</td><td>mówi<span class=\"red\">sz</span></td><td>umówi<span class=\"red\">sz</span></td><td>zamówi<span class=\"red\">sz</span></td><td>płac<span class=\"red\">isz</span></td></tr>\n<tr><td class=\"lbl\">on/ona/ono</td><td>mówi<span class=\"red\"></span></td><td>umówi<span class=\"red\"></span></td><td>zamówi<span class=\"red\"></span></td><td>płac<span class=\"red\">i</span></td></tr>\n<tr><td class=\"lbl\">my</td><td>mówi<span class=\"red\">my</span></td><td>umówi<span class=\"red\">my</span></td><td>zamówi<span class=\"red\">my</span></td><td>płac<span class=\"red\">imy</span></td></tr>\n<tr><td class=\"lbl\">wy</td><td>mówi<span class=\"red\">cie</span></td><td>umówi<span class=\"red\">cie</span></td><td>zamówi<span class=\"red\">cie</span></td><td>płac<span class=\"red\">icie</span></td></tr>\n<tr><td class=\"lbl\">oni/one</td><td>mówi<span class=\"red\">ą</span></td><td>umówi<span class=\"red\">ą</span></td><td>zamówi<span class=\"red\">ą</span></td><td>płac<span class=\"red\">ą</span></td></tr></table></div>\n<div class=\"ex\"><b>mówić</b> — to speak, say (说)<br><span class=\"red\">On mówi, że lubi czytać.</span> <span class=\"en\">(He says that he likes reading.)</span><br><b>umówić się</b> — to make an appointment (预约)<br><span class=\"red\">Umówię się na wizytę.</span> <span class=\"en\">(I'll make an appointment. wizyta = visit, 拜访)</span><br><b>zamówić</b> — to order (订购)<br><span class=\"red\">Zamówię taksówkę.</span> <span class=\"en\">(I'll order a taxi. taksówka = taxi, 出租车)</span></div>\n<p class=\"note\">umówić and zamówić are <b>perfective</b> (prefix u- / za- on mówić), so these \"present\" forms actually mean the future — umówię się = I will make an appointment (see the aspect panel in ch.12). płacić: c + i → <b>płacę, płacą</b> (no -i- before -ę/-ą; the slide's \"płacię / płacią\" is a typo).</p>\n</div>"
+        ],
+        "vocab": [
+          {
+            "category": "Core words",
+            "items": [
+              {
+                "pl": "Co robisz?",
+                "en": "What are you doing?"
+              },
+              {
+                "pl": "jaki / jaka / jakie",
+                "en": "what kind of (m. / f. / n.)"
+              },
+              {
+                "pl": "ten / ta / to",
+                "en": "this (m. / f. / n.)"
+              },
+              {
+                "pl": "że",
+                "en": "that (conjunction)"
+              }
+            ]
+          },
+          {
+            "category": "Verbs",
+            "items": [
+              {
+                "pl": "czytać",
+                "en": "to read (things with words)"
+              },
+              {
+                "pl": "oglądać",
+                "en": "to watch (TV, films, photos)"
+              },
+              {
+                "pl": "wyglądać",
+                "en": "to look (appearance)"
+              },
+              {
+                "pl": "poczytać",
+                "en": "to read for a while (perf.)"
+              },
+              {
+                "pl": "przeczytać",
+                "en": "to read to the end (perf.)"
+              },
+              {
+                "pl": "lubić",
+                "en": "to like"
+              },
+              {
+                "pl": "robić",
+                "en": "to do / make"
+              },
+              {
+                "pl": "uczyć",
+                "en": "to teach"
+              },
+              {
+                "pl": "uczyć się",
+                "en": "to learn / study"
+              },
+              {
+                "pl": "mówić",
+                "en": "to speak / say"
+              },
+              {
+                "pl": "umówić się",
+                "en": "to make an appointment (perf.)"
+              },
+              {
+                "pl": "zamówić",
+                "en": "to order (perf.)"
+              },
+              {
+                "pl": "płacić",
+                "en": "to pay"
+              }
+            ]
+          },
+          {
+            "category": "Word family: czytać",
+            "items": [
+              {
+                "pl": "czytanie",
+                "en": "reading (noun)"
+              },
+              {
+                "pl": "czytany",
+                "en": "read, being read (participle)"
+              },
+              {
+                "pl": "oczytany",
+                "en": "well-read"
+              }
+            ]
+          },
+          {
+            "category": "Other words",
+            "items": [
+              {
+                "pl": "książka biograficzna",
+                "en": "biography (book)"
+              },
+              {
+                "pl": "książka biologiczna",
+                "en": "biology book"
+              },
+              {
+                "pl": "gazeta",
+                "en": "newspaper"
+              },
+              {
+                "pl": "telewizja",
+                "en": "television"
+              },
+              {
+                "pl": "zdjęcie",
+                "en": "photo"
+              },
+              {
+                "pl": "piękny / pięknie",
+                "en": "beautiful / beautifully"
+              },
+              {
+                "pl": "wizyta",
+                "en": "visit / appointment"
+              },
+              {
+                "pl": "taksówka",
+                "en": "taxi"
+              },
+              {
+                "pl": "bardzo dużo",
+                "en": "very much / a lot"
+              }
+            ]
+          }
+        ]
+      }
     }
   ]
 };
