@@ -1582,6 +1582,186 @@ const CONTENT = {
           }
         ]
       }
+    },
+    {
+      "number": 14,
+      "title": "Co wiesz?",
+      "subtitle": "What do you know?",
+      "sections": {
+        "grammar": [
+          "<div class=\"panel full\"><h3>Review: -ić / -yć verbs — mówić, umówić, zamówić, płacić</h3>\n<p class=\"note\">Endings: -(i)ę, -i/ysz, -i/y, -i/ymy, -i/ycie, -(i)ą</p>\n<div class=\"tblwrap\"><table class=\"conj\"><tr><th></th><th>mówić</th><th>umówić</th><th>zamówić</th><th>płacić</th></tr>\n<tr><td class=\"lbl\">ja</td><td>mówi<span class=\"red\">ę</span></td><td>umówi<span class=\"red\">ę</span></td><td>zamówi<span class=\"red\">ę</span></td><td>płac<span class=\"red\">ę</span></td></tr>\n<tr><td class=\"lbl\">ty</td><td>mówi<span class=\"red\">sz</span></td><td>umówi<span class=\"red\">sz</span></td><td>zamówi<span class=\"red\">sz</span></td><td>płac<span class=\"red\">isz</span></td></tr>\n<tr><td class=\"lbl\">on/ona/ono</td><td>mówi<span class=\"red\"></span></td><td>umówi<span class=\"red\"></span></td><td>zamówi<span class=\"red\"></span></td><td>płac<span class=\"red\">i</span></td></tr>\n<tr><td class=\"lbl\">my</td><td>mówi<span class=\"red\">my</span></td><td>umówi<span class=\"red\">my</span></td><td>zamówi<span class=\"red\">my</span></td><td>płac<span class=\"red\">imy</span></td></tr>\n<tr><td class=\"lbl\">wy</td><td>mówi<span class=\"red\">cie</span></td><td>umówi<span class=\"red\">cie</span></td><td>zamówi<span class=\"red\">cie</span></td><td>płac<span class=\"red\">icie</span></td></tr>\n<tr><td class=\"lbl\">oni/one</td><td>mówi<span class=\"red\">ą</span></td><td>umówi<span class=\"red\">ą</span></td><td>zamówi<span class=\"red\">ą</span></td><td>płac<span class=\"red\">ą</span></td></tr></table></div>\n<div class=\"ex\"><span class=\"red\">On mówi, że lubi czytać.</span> <span class=\"en\">(He says that he likes reading.)</span><br><span class=\"red\">Umówię się na wizytę.</span> <span class=\"en\">(I'll make an appointment.)</span><br><span class=\"red\">Zamówię taksówkę.</span> <span class=\"en\">(I'll order a taxi.)</span></div>\n<p class=\"note\"><b>płacić</b> = to pay / spend (money), settle (a bill) · 花（钱），付（款），结（账）. Note płacę / płacą — no -i- before -ę/-ą (ch.13).</p>\n</div>",
+          "<div class=\"panel full\"><h3>Paying — płacić + accusative or instrumental</h3>\n<div class=\"tblwrap\"><table><tr><th></th><th>Polish</th><th>English</th><th>中文</th></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"rachunek\" aria-label=\"Play rachunek\">🔊</button></td><td>rachunek</td><td><span class=\"en\">bill</span></td><td>账单</td></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"gotówka\" aria-label=\"Play gotówka\">🔊</button></td><td>gotówka</td><td><span class=\"en\">cash</span></td><td>现金</td></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"karta\" aria-label=\"Play karta\">🔊</button></td><td>karta</td><td><span class=\"en\">card</span></td><td>卡</td></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"karta kredytowa\" aria-label=\"Play karta kredytowa\">🔊</button></td><td>karta kredytowa</td><td><span class=\"en\">credit card</span></td><td>信用卡</td></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"karta debetowa\" aria-label=\"Play karta debetowa\">🔊</button></td><td>karta debetowa</td><td><span class=\"en\">debit card</span></td><td>借记卡</td></tr></table></div>\n<div class=\"tblwrap\"><table><tr><th>What you pay → accusative (biernik)</th><th>How you pay → instrumental (narzędnik)</th></tr>\n<tr><td>Płacę <span class=\"red\">rachunek</span>. <span class=\"en\">(I pay the bill.)</span></td><td>Płacę <span class=\"red\">kartą kredytową</span>. <span class=\"en\">(I pay by credit card.)</span></td></tr>\n<tr><td>Płacę <span class=\"red\">za kawę</span>. <span class=\"en\">(I pay for the coffee.)</span></td><td>Płacę <span class=\"red\">gotówką</span>. <span class=\"en\">(I pay in cash.)</span></td></tr></table></div>\n<div class=\"ex\">Płacę rachunek. <span class=\"en\">(我付账单。)</span><br>Płacę kartą kredytową. <span class=\"en\">(我用信用卡结账。)</span><br>Płacę gotówką. <span class=\"en\">(我用现金。)</span><br>Płaci pan kartą czy gotówką? <span class=\"en\">(Card or cash, sir?)</span></div>\n<p class=\"note\">Same idea as ch.10–11: the accusative marks the thing the action is done to, the instrumental marks the means (\"with / by\"). rachunek is masc. inanimate → unchanged; karta kredytowa → kart<b>ą</b> kredytow<b>ą</b>; gotówka → gotówk<b>ą</b>. \"Płacę za kawę\" (za + acc. = pay <i>for</i>) and \"Płaci pan… czy…?\" are extra examples, not on the slide.</p>\n</div>",
+          "<div class=\"panel full\"><h3>-eć verbs (and jeść): -em, -esz, -e, -emy, -ecie, -eją / -edzą</h3>\n<div class=\"tblwrap\"><table class=\"conj\"><tr><th></th><th>umieć</th><th>wiedzieć</th><th>jeść</th><th>rozumieć</th></tr>\n<tr><td class=\"lbl\">ja</td><td>umi<span class=\"red\">em</span></td><td>wi<span class=\"red\">em</span></td><td>j<span class=\"red\">em</span></td><td>rozumi<span class=\"red\">em</span></td></tr>\n<tr><td class=\"lbl\">ty</td><td>umi<span class=\"red\">esz</span></td><td>wi<span class=\"red\">esz</span></td><td>j<span class=\"red\">esz</span></td><td>rozumi<span class=\"red\">esz</span></td></tr>\n<tr><td class=\"lbl\">on/ona/ono</td><td>umi<span class=\"red\">e</span></td><td>wi<span class=\"red\">e</span></td><td>j<span class=\"red\">e</span></td><td>rozumi<span class=\"red\">e</span></td></tr>\n<tr><td class=\"lbl\">my</td><td>umi<span class=\"red\">emy</span></td><td>wi<span class=\"red\">emy</span></td><td>j<span class=\"red\">emy</span></td><td>rozumi<span class=\"red\">emy</span></td></tr>\n<tr><td class=\"lbl\">wy</td><td>umi<span class=\"red\">ecie</span></td><td>wi<span class=\"red\">ecie</span></td><td>j<span class=\"red\">ecie</span></td><td>rozumi<span class=\"red\">ecie</span></td></tr>\n<tr><td class=\"lbl\">oni/one</td><td>umi<span class=\"red\">eją</span></td><td>wi<span class=\"red\">edzą</span></td><td>j<span class=\"red\">edzą</span></td><td>rozumi<span class=\"red\">eją</span></td></tr></table></div>\n<p class=\"note\"><b>umieć</b> = to know how, can (知道；会) · <b>rozumieć</b> = to understand (知道；明白) · <b>wiedzieć</b> = to know (a fact) (知道) · <b>jeść</b> = to eat (吃). wiedzieć and jeść are irregular: only oni/one changes to -dzą (wiedzą, jedzą).</p>\n<div class=\"ex\">Co jesz? Co ona je? <span class=\"en\">(What are you eating? What is she eating?)</span><br>Kto je? <span class=\"en\">(Who is eating?)</span><br>Co jesz? — <span class=\"red\">Jem banana.</span><br>Kto je banana? — <span class=\"red\">Ona je banana.</span></div>\n<p class=\"note\">banan (banana, 香蕉) is masculine and counts as <b>animate</b> (fruit &amp; veg do — ch.10), so the accusative adds -a: banan → banan<b>a</b>.</p>\n</div>",
+          "<div class=\"panel full\"><h3>Do you know? — umieć, rozumieć, wiedzieć, znać</h3>\n<p class=\"note\">All four translate as \"know / understand\" (知道、了解), but each has its own job.</p>\n<div class=\"tblwrap\"><table><tr><th>Verb</th><th>Used for</th><th>Example</th></tr>\n<tr><td class=\"lbl\">umieć</td><td>a skill — know <i>how</i> to do something (懂、会), not necessarily well; + infinitive</td><td>Oni umieją mówić po chińsku.</td></tr>\n<tr><td class=\"lbl\">rozumieć</td><td>understanding, often in depth (理解、明白)</td><td>On nie rozumie, czym jest miłość.</td></tr>\n<tr><td class=\"lbl\">wiedzieć</td><td>a fact or piece of information; + że / co / ile / gdzie…</td><td>Wiem, że…  ·  Nie wiem, gdzie on jest.</td></tr>\n<tr><td class=\"lbl\">znać</td><td>being familiar with a person, place or thing; + accusative</td><td>Znam Ewę.  ·  Znam to miasto.</td></tr></table></div>\n<div class=\"ex\"><span class=\"red\">Oni umieją mówić po chińsku.</span> <span class=\"en\">(They can speak Chinese.)</span><br><span class=\"red\">On nie rozumie, czym jest miłość.</span> <span class=\"en\">(He doesn't understand what love is.)</span></div>\n<p class=\"note\"><b>roz-</b> has two common meanings: (1) apart / undoing, moving away from a process — a bit like English un-; (2) speeding up or deepening something. 一个表示远离、不再持续过程；另一个表示加速、加深程度。</p>\n</div>",
+          "<div class=\"panel\"><h3>In class — Rozumiesz?</h3>\n<div class=\"ex\">Rozumiesz? Rozumiecie? <span class=\"en\">(Do you understand? — you / you all)</span><br><span class=\"red\">Tak, rozumiem.</span> <span class=\"en\">(Yes, I understand.)</span><br><span class=\"red\">Tak, rozumiemy.</span> <span class=\"en\">(Yes, we understand.)</span><br><span class=\"red\">Nie, nie rozumiem.</span> <span class=\"en\">(No, I don't understand.)</span></div>\n<p class=\"note\">你（们）明白了吗？ — 是的，我（们）明白了。 — 不，我不明白。</p>\n</div>",
+          "<div class=\"panel\"><h3>znać — to know (be familiar with)</h3>\n<div class=\"tblwrap\"><table class=\"conj\"><tr><th></th><th>znać</th></tr>\n<tr><td class=\"lbl\">ja</td><td>zn<span class=\"red\">am</span></td></tr>\n<tr><td class=\"lbl\">ty</td><td>zn<span class=\"red\">asz</span></td></tr>\n<tr><td class=\"lbl\">on/ona/ono</td><td>zn<span class=\"red\">a</span></td></tr>\n<tr><td class=\"lbl\">my</td><td>zn<span class=\"red\">amy</span></td></tr>\n<tr><td class=\"lbl\">wy</td><td>zn<span class=\"red\">acie</span></td></tr>\n<tr><td class=\"lbl\">oni/one</td><td>zn<span class=\"red\">ają</span></td></tr></table></div>\n<p class=\"note\">A regular -ać verb (ch.12): znam, znasz, zna, znamy, znacie, znają.<br><b>znać + person</b>: someone you know, or a celebrity · <b>znać + thing/place</b>: something you know well or have experienced yourself (<i>Znam to uczucie.</i> = I know that feeling).</p>\n</div>",
+          "<div class=\"panel full\"><h3>Reading — wiedzieć vs. znać</h3>\n<div class=\"ex\">Jestem już pół roku w Polsce, ale jeszcze nie <b>znam</b> kraju.<br><b>Wiem</b>, że są ładne miejsca, które warto zobaczyć i zwiedzić.<br>Tymczasem ja dobrze <b>znam</b> tylko biuro, bo ja cały czas pracuję.</div>\n<p class=\"note\">我在波兰已经半年了，但我还是不了解这个国家。我知道，这里有值得去看和参观的旅游胜地。但与此同时我真正了解的（地方）只有办公室，因为我总是不停地工作。</p>\n<p class=\"note\">znam kraju — after a negation (nie znam) the object goes into the genitive: kraj → kraju. The slide writes \"ładna miejsca\"; miejsca is neuter plural, so it should be <b>ładne</b> miejsca.</p>\n<div class=\"ex\"><span class=\"red\">Znam Ewę, jest moją znajomą.</span> <span class=\"en\">(I know Ewa — she's an acquaintance of mine.)</span><br><span class=\"red\">Znam Ewę, jest moją przyjaciółką.</span> <span class=\"en\">(I know Ewa — she's my good friend.)</span><br><span class=\"red\">Wiem, kim jest Ewa.</span> <span class=\"en\">(I know who Ewa is.)</span></div>\n<p class=\"note\">The slide's first line is \"Wiem Ewę\", but <b>wiedzieć</b> can't take a person as a direct object — for people always use <b>znać</b> (Znam Ewę). With wiedzieć you'd say \"Wiem, kim jest Ewa\" (I know who Ewa is). Ewa → Ewę (fem. accusative); moja znajoma → moją znajomą (instrumental after jest).</p>\n</div>",
+          "<div class=\"panel full\"><h3>Practice — fill in the right verb and form (填写合适的动词及形式)</h3>\n<p class=\"note\">Choose from: umieć, rozumieć, wiedzieć, znać</p>\n<div class=\"tblwrap\"><table><tr><th></th><th>Sentence</th><th>Answer</th><th>English</th></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"Rozumiem, co mówisz.\" aria-label=\"Play answer 1\">🔊</button></td><td>(1) _____ co mówisz. (ja)</td><td class=\"red\">Rozumiem, co mówisz.</td><td><span class=\"en\">I understand what you're saying.</span></td></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"Umiesz malować?\" aria-label=\"Play answer 2\">🔊</button></td><td>(2) _____ malować? (ty)</td><td class=\"red\">Umiesz malować?</td><td><span class=\"en\">Can you paint?</span></td></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"Nie wiem, ile ona ma lat.\" aria-label=\"Play answer 3\">🔊</button></td><td>(3) Nie _____, ile ona ma lat. (ja)</td><td class=\"red\">Nie wiem, ile ona ma lat.</td><td><span class=\"en\">I don't know how old she is.</span></td></tr>\n<tr><td class=\"speak\"><button type=\"button\" class=\"speak-btn\" data-speak=\"On zna cię bardzo dobrze.\" aria-label=\"Play answer 4\">🔊</button></td><td>(4) On _____ cię bardzo dobrze. (on)</td><td class=\"red\">On zna cię bardzo dobrze.</td><td><span class=\"en\">He knows you very well.</span></td></tr></table></div>\n<p class=\"note\">Why: (1) understanding → rozumieć · (2) a skill + infinitive → umieć · (3) a fact, \"ile…\" → wiedzieć · (4) knowing a person → znać. cię = you (accusative of ty).</p>\n</div>"
+        ],
+        "vocab": [
+          {
+            "category": "Core words",
+            "items": [
+              {
+                "pl": "Co wiesz?",
+                "en": "What do you know?"
+              },
+              {
+                "pl": "Rozumiesz?",
+                "en": "Do you understand?"
+              },
+              {
+                "pl": "Nie rozumiem.",
+                "en": "I don't understand."
+              },
+              {
+                "pl": "cię",
+                "en": "you (accusative of ty)"
+              }
+            ]
+          },
+          {
+            "category": "Verbs: knowing",
+            "items": [
+              {
+                "pl": "umieć",
+                "en": "to know how / can (a skill)"
+              },
+              {
+                "pl": "rozumieć",
+                "en": "to understand"
+              },
+              {
+                "pl": "wiedzieć",
+                "en": "to know (a fact)"
+              },
+              {
+                "pl": "znać",
+                "en": "to know (a person, place, thing)"
+              }
+            ]
+          },
+          {
+            "category": "Other verbs",
+            "items": [
+              {
+                "pl": "jeść",
+                "en": "to eat"
+              },
+              {
+                "pl": "płacić",
+                "en": "to pay"
+              },
+              {
+                "pl": "zobaczyć",
+                "en": "to see (perf.)"
+              },
+              {
+                "pl": "zwiedzić",
+                "en": "to visit, go sightseeing (perf.)"
+              },
+              {
+                "pl": "pracować",
+                "en": "to work"
+              }
+            ]
+          },
+          {
+            "category": "Money & paying",
+            "items": [
+              {
+                "pl": "rachunek",
+                "en": "bill"
+              },
+              {
+                "pl": "gotówka",
+                "en": "cash"
+              },
+              {
+                "pl": "karta",
+                "en": "card"
+              },
+              {
+                "pl": "karta kredytowa",
+                "en": "credit card"
+              },
+              {
+                "pl": "karta debetowa",
+                "en": "debit card"
+              }
+            ]
+          },
+          {
+            "category": "Other words",
+            "items": [
+              {
+                "pl": "banan",
+                "en": "banana (acc. banana)"
+              },
+              {
+                "pl": "po chińsku",
+                "en": "in Chinese"
+              },
+              {
+                "pl": "miłość",
+                "en": "love"
+              },
+              {
+                "pl": "kraj",
+                "en": "country"
+              },
+              {
+                "pl": "miejsce",
+                "en": "place"
+              },
+              {
+                "pl": "biuro",
+                "en": "office"
+              },
+              {
+                "pl": "znajomy / znajoma",
+                "en": "acquaintance (m. / f.)"
+              },
+              {
+                "pl": "przyjaciel / przyjaciółka",
+                "en": "(close) friend (m. / f.)"
+              },
+              {
+                "pl": "uczucie",
+                "en": "feeling"
+              },
+              {
+                "pl": "już",
+                "en": "already"
+              },
+              {
+                "pl": "jeszcze nie",
+                "en": "not yet"
+              },
+              {
+                "pl": "pół roku",
+                "en": "half a year"
+              },
+              {
+                "pl": "warto",
+                "en": "it's worth (doing)"
+              },
+              {
+                "pl": "tymczasem",
+                "en": "meanwhile"
+              },
+              {
+                "pl": "tylko",
+                "en": "only"
+              },
+              {
+                "pl": "cały czas",
+                "en": "all the time"
+              }
+            ]
+          }
+        ]
+      }
     }
   ]
 };
